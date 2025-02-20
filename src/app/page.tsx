@@ -1,13 +1,11 @@
 "use client";
 
-import Image from "next/image";
-import { join } from "path";
 import { useState } from "react";
 
 export default function Home() {
-  const handleFocus = (e: any) => e.target.select();
+  const handleFocus = (e: any) => e.target.select(); // eslint-disable-line @typescript-eslint/no-explicit-any
 
-  const [suffix, setSuffix] = useState("");
+  const [suffix, setSuffix]: any = useState("");
   const [search, setSearch] = useState("");
   const joinedString = suffix.concat(" ", search);
 
