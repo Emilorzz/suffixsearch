@@ -2,6 +2,7 @@
   "name": "suffixsearch",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://emilorzz.github.io/suffixsearch/",
   "scripts": {
     "dev": "next dev --turbopack",
     "predeploy" : "npm run build",
